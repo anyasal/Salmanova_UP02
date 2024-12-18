@@ -1,0 +1,13 @@
+﻿<Window x:Class="UP_02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UP_02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  >
+    <Grid>
+        <Frame x:Name="MainFrame"  Source="Pages/PartnersPage.xaml" NavigationUIVisibility="Hidden" Margin="0,48,0,0" Navigated="MainFrame_OnNavigated"  />
+        <Button x:Name="BackBTN"    Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="BackBTN_Click" Height="33" Width="85"/>
+    </Grid>
+</Window>
